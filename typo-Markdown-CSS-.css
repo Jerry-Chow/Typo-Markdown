@@ -24,14 +24,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-#write {
-  padding:5% 10%;
-  position:relative;
+#write,
+.markdown-body {
+  padding: 5% 10%;
+  position: relative;
 }
 
 pre {
   white-space: pre-wrap;
+}
+
+pre a{
+  text-decoration: none;    /* //By Jerry 2018-5-23 13:26 兼容部分，取消下划线 */
 }
 /* //By Jerry 2018-5-19 ↑ 自己加的背景和大小等 */
 
